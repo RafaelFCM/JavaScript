@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando JS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <script>
+        function acendeLampada() {
+            document.querySelector("#luz").src = "./images/Imagem2.png";
+            document.querySelector("#texto").textContent = ("Agora sim, miseravi");
+        };
+
+        function apagaLampada() {
+            document.querySelector("#luz").src = "./images/Imagem1.png";
+            document.querySelector("#texto").textContent = ("");
+        };
+
+        function otario() {
+            alert("Enganei otário");
+        };
+    </script>
+</head>
+<body>
+    <h1>Acenda a lampada!</h1>
+
+    <img src="./images/Imagem1.png" id="luz" onmousemove="acendeLampada()" onmouseout="apagaLampada()"> 
+    
+    <h2 id="texto"></h2>
+
+    <div class="container">
+        <a href="#" class="btn btn-success" onclick="otario()">Clique aqui</a>
+    </div>
+</body>
+</html>

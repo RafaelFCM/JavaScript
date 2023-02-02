@@ -1,0 +1,22 @@
+.bg-lightblue {
+    background-color: lightblue;
+    padding: 1rem 0;
+}
+
+.bg-blue {
+    background-color: rgb(6, 123, 161);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.bg-red {
+    background-color: red;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.bg-darkblue {
+    background-color: rgba(2, 2, 121, 0.89);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

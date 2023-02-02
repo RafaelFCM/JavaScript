@@ -1,0 +1,100 @@
+:root {
+    --space-cadet: #E91C5D;
+    --manatee: #8d99aeff;
+    --cultured: #edf2f4ff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-cust {
+    background-color: var(--space-cadet);
+    color: var(--cultured);
+    
+}
+
+.bg-image-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.459),rgba(10, 3, 3, 0.747)),
+    url(/images/Imagem-1.jpeg);
+}
+
+.bg-cadet{
+    background-color: var(--space-cadet);
+}
+
+.container {
+    width:100%;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.espaçamento{
+    min-height: 5rem;
+}
+
+.linkedin-txt{ 
+    color: rgb(0, 58, 66);
+}
+
+.container-1{
+    color: #000;
+}
+
+.card{
+    transition: .5s;
+    z-index: 10;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    cursor:zoom-in;
+}
+
+.tamanho{
+    height: 20rem;
+    width: 15rem;
+    background-color: black;
+}
+
+.membros{
+    height: 23rem;
+}
+
+.rosaMain{
+    color: #E91C5D;
+}
+
+#canvas{
+    border: #E91C5D .1rem solid;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: .5rem;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #6b0022;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--space-cadet);
+    border-radius: 1rem;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d61955;
+  }
+
+.footer{
+    width: 100%;
+}
