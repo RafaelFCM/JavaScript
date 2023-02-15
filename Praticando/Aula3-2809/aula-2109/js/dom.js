@@ -32,8 +32,3 @@ console.log(forca[3].textContent);
 //to fixed é um tipo de decimal format
 
 
-
-
-
-
-
